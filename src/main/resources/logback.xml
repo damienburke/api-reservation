@@ -1,0 +1,47 @@
+<configuration>
+
+    <!-- Define properties for log file locations and patterns -->
+    <property name="LOG_PATH" value="logs" />
+    <property name="LOG_FILE" value="${LOG_PATH}/app.log" />
+    <property name="LOGBACK_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n" />
+
+    <!-- Console appender for logging to the console (stdout) -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- Define a pattern layout for the console logs -->
+        <encoder>
+            <pattern>${LOGBACK_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- File appender for logging to a file -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- Log file name -->
+        <file>${LOG_FILE}</file>
+
+        <!-- Configure rolling policy for log file rotation -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Daily rollover with log file naming convention -->
+            <fileNamePattern>${LOG_PATH}/app-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- Keep 30 days worth of logs -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+
+        <!-- Define a pattern layout for file logs -->
+        <encoder>
+            <pattern>${LOGBACK_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- Set the root logger level and appenders -->
+    <root level="info">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
+    </root>
+
+    <!-- Logger configuration for specific packages (e.g., Spring) -->
+    <logger name="org.springframework" level="warn" />
+    <logger name="com.twa.flights.api.reservation.model" level="debug" />
+
+</configuration>

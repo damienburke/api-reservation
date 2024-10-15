@@ -1,0 +1,25 @@
+2024-10-15 21:29:28.788 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-15 21:29:28.860 [main] INFO  c.t.f.a.r.ApiReservationApplicationKt - Starting ApiReservationApplicationKt using Java 21.0.4 with PID 21824 (/Users/grainneomalley/damo/workspace/personal/api-reservation/build/classes/kotlin/main started by grainneomalley in /Users/grainneomalley/damo/workspace/personal/api-reservation)
+2024-10-15 21:29:28.862 [main] INFO  c.t.f.a.r.ApiReservationApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2024-10-15 21:29:30.675 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3070"]
+2024-10-15 21:29:30.680 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-15 21:29:30.681 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-15 21:29:30.743 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-15 21:29:31.598 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3070"]
+2024-10-15 21:29:31.642 [main] INFO  c.t.f.a.r.ApiReservationApplicationKt - Started ApiReservationApplicationKt in 3.287 seconds (process running for 4.376)
+2024-10-15 21:29:37.438 [http-nio-3070-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-15 21:31:32.680 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-15 21:31:32.758 [main] INFO  c.t.f.a.r.ApiReservationApplicationKt - Starting ApiReservationApplicationKt using Java 21.0.4 with PID 21858 (/Users/grainneomalley/damo/workspace/personal/api-reservation/build/classes/kotlin/main started by grainneomalley in /Users/grainneomalley/damo/workspace/personal/api-reservation)
+2024-10-15 21:31:32.759 [main] INFO  c.t.f.a.r.ApiReservationApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2024-10-15 21:31:34.399 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3070"]
+2024-10-15 21:31:34.404 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-15 21:31:34.405 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-15 21:31:34.466 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-15 21:31:35.479 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3070"]
+2024-10-15 21:31:35.526 [main] INFO  c.t.f.a.r.ApiReservationApplicationKt - Started ApiReservationApplicationKt in 3.258 seconds (process running for 4.351)
+2024-10-15 21:31:37.887 [http-nio-3070-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-15 21:31:38.026 [http-nio-3070-exec-1] INFO  c.t.f.a.r.service.ReservationService - getReservationById 1234
+2024-10-15 21:39:49.558 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-10-15 21:39:49.628 [Test worker] INFO  c.t.f.a.r.ApiReservationApplicationTests - Starting ApiReservationApplicationTests using Java 21.0.4 with PID 22050 (started by grainneomalley in /Users/grainneomalley/damo/workspace/personal/api-reservation)
+2024-10-15 21:39:49.633 [Test worker] INFO  c.t.f.a.r.ApiReservationApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2024-10-15 21:39:52.057 [Test worker] INFO  c.t.f.a.r.ApiReservationApplicationTests - Started ApiReservationApplicationTests in 2.878 seconds (process running for 4.452)

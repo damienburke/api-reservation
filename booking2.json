@@ -1,0 +1,22 @@
+{
+  "passengers": [
+    {
+      "type": "ADULT",
+      "gender": "MALE",
+      "birth": "1980-01-12",
+      "nationality": "ARG",
+      "firstName": "Andres",
+      "lastName": "Sacco",
+      "document": {
+        "number": "20123456783",
+        "type": "PASSPORT",
+        "expiration": "2027-07-21"
+      }
+    }
+  ],
+  "contact": {
+    "telephone": "4444-1234",
+    "email": "flights@manning.com"
+  },
+  "itineraryId": ""
+}

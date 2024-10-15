@@ -1,0 +1,25 @@
+server:
+  port: 3070
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, env
+  endpoint:
+    health:
+      show-details: always
+
+#livenessProbe:
+#  httpGet:
+#    path: /actuator/health/liveness
+#    port: liveness-port
+#  failureThreshold: 3
+#  periodSeconds: 10
+#
+#readinessProbe:
+#  httpGet:
+#    path: /actuator/health/readiness
+#    port: liveness-port
+#  failureThreshold: 3
+#  periodSeconds: 10
